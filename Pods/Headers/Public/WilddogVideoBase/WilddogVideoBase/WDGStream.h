@@ -1,0 +1,1 @@
+../../../../WilddogVideoBase/WilddogVideoBase.framework/Headers/WDGStream.h

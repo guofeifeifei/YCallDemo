@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Bugly" "${PODS_ROOT}/WilddogAuth" "${PODS_ROOT}/WilddogCore" "${PODS_ROOT}/WilddogVideoBase" "${PODS_ROOT}/WilddogVideoCall" "${PODS_ROOT}/WilddogWebRTC"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bugly" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/WilddogAuth" "${PODS_ROOT}/Headers/Public/WilddogCore" "${PODS_ROOT}/Headers/Public/WilddogVideoBase" "${PODS_ROOT}/Headers/Public/WilddogVideoCall" "${PODS_ROOT}/Headers/Public/WilddogWebRTC"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/MBProgressHUD"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bugly" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/WilddogAuth" -isystem "${PODS_ROOT}/Headers/Public/WilddogCore" -isystem "${PODS_ROOT}/Headers/Public/WilddogVideoBase" -isystem "${PODS_ROOT}/Headers/Public/WilddogVideoCall" -isystem "${PODS_ROOT}/Headers/Public/WilddogWebRTC"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"MBProgressHUD" -l"c++" -l"icucore" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "Bugly" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "Foundation" -framework "GLKit" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox" -framework "WebRTC" -framework "WilddogAuth" -framework "WilddogCore" -framework "WilddogVideoBase" -framework "WilddogVideoCall"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

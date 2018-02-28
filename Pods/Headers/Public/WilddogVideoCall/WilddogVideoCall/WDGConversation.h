@@ -1,0 +1,1 @@
+../../../../WilddogVideoCall/WilddogVideoCall.framework/Headers/WDGConversation.h

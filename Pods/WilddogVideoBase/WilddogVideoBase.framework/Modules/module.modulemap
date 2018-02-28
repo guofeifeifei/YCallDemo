@@ -1,0 +1,6 @@
+framework module WilddogVideoBase {
+  umbrella header "WilddogVideoBase.h"
+
+  export *
+  module * { export * }
+}

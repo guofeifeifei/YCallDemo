@@ -1,0 +1,32 @@
+PODS:
+  - Bugly (2.5.0)
+  - MBProgressHUD (1.1.0)
+  - WilddogAuth (2.0.7):
+    - WilddogCore (~> 2.0.2)
+  - WilddogCore (2.0.11)
+  - WilddogVideoBase (2.4.0):
+    - WilddogCore (~> 2.0.11)
+    - WilddogWebRTC (~> 63.0.0)
+  - WilddogVideoCall (2.4.3):
+    - WilddogAuth (>= 2.0.2)
+    - WilddogVideoBase (~> 2.4.0)
+    - WilddogWebRTC (~> 63.0.0)
+  - WilddogWebRTC (63.0.0)
+
+DEPENDENCIES:
+  - Bugly
+  - MBProgressHUD
+  - WilddogVideoCall
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  WilddogAuth: 6c5f364277547490eed7e5a5c955b45e544e8ebf
+  WilddogCore: 515371b98a3298ced567033df3348f9f0e3b2dc0
+  WilddogVideoBase: ea17a5b6c5d0a86adfa2f4c3e9daacb44cb4f048
+  WilddogVideoCall: c448001dfaa3a3b9e0a7dc6d0970f30f82e1b7a3
+  WilddogWebRTC: 5c7a6c98c5672eb90e833546311f34ce3c34c88c
+
+PODFILE CHECKSUM: 4f59e3b1502cf9f3ba3e13ebeb71a2e593691941
+
+COCOAPODS: 1.2.1

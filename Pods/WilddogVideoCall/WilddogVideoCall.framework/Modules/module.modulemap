@@ -1,0 +1,6 @@
+framework module WilddogVideoCall {
+  umbrella header "WilddogVideoCall.h"
+
+  export *
+  module * { export * }
+}

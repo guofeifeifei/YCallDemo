@@ -1,0 +1,37 @@
+//
+//  ShiPrefixHeader.pch
+//  YCallshipin
+//
+//  Created by ZZCN77 on 2017/10/12.
+//  Copyright © 2017年 ZZCN77. All rights reserved.
+//
+
+#ifndef ShiPrefixHeader_pch
+#define ShiPrefixHeader_pch
+#import "MBProgressHUD+NHAdd.h"
+
+/******* 屏幕尺寸 *******/
+#define KMainScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KMainScreenHeight [UIScreen mainScreen].bounds.size.height
+#define GFMainScreenBounds [UIScreen mainScreen].bounds
+
+#define widthScale KMainScreenWidth / 375.0
+#define heightScale KMainScreenHeight / 667.0
+#define kwidthScale KMainScreenWidth / 375.0
+#define kheightScale KMainScreenHeight / 667.0
+/******* 屏幕尺寸 *******/
+
+#define SCREEN_W ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_H ([UIScreen mainScreen].bounds.size.height)
+#define CELL_H (SCREEN_W / 16 * 9 + 10)
+#define MAGIN_W ([UIScreen mainScreen].bounds.size.width / 3)
+/******* 日志打印替换 *******/
+#ifdef DEBUG
+// Debug
+#define NSLog(FORMAT, ...) fprintf(stderr, "%s [%d lines] %s\n", __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+// Release
+#define NSLog(FORMAT, ...) nil
+#endif
+/******* 日志打印替换 *******/
+#endif /* ShiPrefixHeader_pch */
